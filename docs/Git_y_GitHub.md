@@ -1,7 +1,7 @@
 
 # Git y GitHub
 
-# LLEGAMOS AL MINUTO 1:05 DEL VIDEO #
+# LLEGAMOS AL MINUTO 1:19 DEL VIDEO #
 
 ## Git
 
