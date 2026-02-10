@@ -48,6 +48,8 @@
 
 `git log --graph --decorate --all --oneline` muestra resumido la linea de tiempo
 
+`git diff` muestra las diferencias que hemos realizado en un archivo respecto del ultimo commit
+
 ## Alias ##
 
 Esto nos permite con texto simple igualar el comportamiento de un comando mas complejo de esciribir
@@ -96,6 +98,9 @@ Quieres ver cómo era el archivo cuando solo tenía la "A", pero no quieres borr
 Tu archivo ahora muestra "A". Git te permite "visitar" el pasado.
 Si luego te arrepientes, puedes volver a viajar al presente (C) fácilmente.
 No destruiste nada.
+
+**Cuidado** el si viajamos al pasado y lo modificamos git lo quita de la rama y que flotando. 
+**Positivo** Estamos en v5 y un cliente esta en v2, descubre poblema, se viaja allí para generar una nueva rama y hacer un parche para la solución. Tambien se puede utilizar para recuperar fragmentos o rutinas borradas en la actualidad.
 
 **git reset --hard (DESHACER)**
 
