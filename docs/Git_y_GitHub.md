@@ -93,7 +93,10 @@ entonces
 
 `git branch` muestra todas las ramas
 
-`git branch <nombreRama>` crea una nueva rama, para nuevas funcionalidades, fix, etc.
+`git branch  <nombreRama>` crea una nueva rama, para nuevas funcionalidades, fix, etc.
+
+`git branch -d <nombreRama>` elimina la rama
+
 
 
 
