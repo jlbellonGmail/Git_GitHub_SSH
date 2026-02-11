@@ -22,7 +22,24 @@
 
 	Esto lo guarda en C:\Users\jlbel en archvio .gitconfig
 
-## 2. Comandos ##
+## 2. Conceptos ##
+	Git: El Control de Versiones Distribuido (Local)
+	Git permite que cada desarrollador tenga una copia completa del historial del proyecto en su máquina. Esto elimina la dependencia de un servidor central para realizar cambios básicos.
+
+	El Ciclo de Vida del Archivo
+	Entender los estados de un archivo es fundamental para evitar "commits" accidentales:
+
+	. Working Directory: Donde modificas tus archivos.
+	. Staging Area (Index): El área de preparación donde seleccionas qué cambios formarán parte de tu próxima captura.
+	. Repository (.git): Donde Git guarda permanentemente las instantáneas (snapshots).
+
+	Ramificación (Branching)
+	La potencia de Git reside en sus ramas. Un especialista sabe que:
+
+	. Las ramas son punteros ligeros a commits específicos.
+	. Permiten el desarrollo de funciones en aislamiento total sin afectar la línea principal (main o master).
+
+## 3. Comandos ##
 
 **Ayuda:**`git help -a`  `git help -g`  `git help <command>`  `git help <concept>`  `git help git` 
 		
