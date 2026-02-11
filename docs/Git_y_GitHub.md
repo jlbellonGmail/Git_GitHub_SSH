@@ -1,7 +1,7 @@
 
 # Git y GitHub
 
-# LLEGAMOS AL MINUTO 1:19 DEL VIDEO #
+# LLEGAMOS AL MINUTO 1:27:45 DEL VIDEO  (GIT TAG)#
 
 ## Git
 
@@ -67,6 +67,8 @@
 
 `git diff` muestra las diferencias que hemos realizado en un archivo respecto del ultimo commit
 
+`git reflog` muestra el historial completo de commits realizados, incluso los que no estan en el historial de ramas.
+
 ## Alias ##
 
 Esto nos permite con texto simple igualar el comportamiento de un comando mas complejo de esciribir
@@ -123,7 +125,7 @@ No destruiste nada.
 
 `git reset --hard <ID-del-Commit-1>`
 
-Decides que la "B" y la "C" fueron un error terrible y quieres que el proyecto vuelva a ser como cuando solo estaba la "A". Borraste el futuro. Los commits de "B" y "C" han desaparecido de tu línea de tiempo principal. Has "deshecho" la historia.
+Decides que la "B" y la "C" fueron un error terrible y quieres que el proyecto vuelva a ser como cuando solo estaba la "A". Borraste el futuro. Los commits de "B" y "C" han desaparecido de tu línea de tiempo principal. Has "deshecho" la historia. Importante que tambien volver a "C" 
 
 Resumen 
 
