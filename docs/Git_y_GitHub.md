@@ -51,6 +51,8 @@
 
 `git add <nombreArchivo>`  lo agrega al area de **stage**  prepara para la foto
 
+`git add .` agrega todos los pendientes al **stage**
+
 `git restore --staged <nobreArchivo>` lo quita del area **stage** 
 
 `git commit "mensaje"` agrega al repositorio  es la foto 
@@ -68,6 +70,14 @@
 `git diff` muestra las diferencias que hemos realizado en un archivo respecto del ultimo commit
 
 `git reflog` muestra el historial completo de commits realizados, incluso los que no estan en el historial de ramas.
+
+`git tag <nombreTag>` para marcar puntos importantes (Ej. V1.0)
+
+`git tag` muestra todas las tags
+
+
+
+
 
 ## Alias ##
 
