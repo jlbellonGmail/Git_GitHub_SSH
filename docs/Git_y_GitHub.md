@@ -75,7 +75,7 @@
 
 `git tag` muestra todas las tags
 
-
+`git reset --hard <hash>` elimina por completo un commit
 
 
 
@@ -90,6 +90,13 @@ Esto nos permite con texto simple igualar el comportamiento de un comando mas co
 entonces
 
 `git tree equivale a git log --graph --decorate --all --oneline`
+
+`git branch` muestra todas las ramas
+
+`git branch <nombreRama>` crea una nueva rama, para nuevas funcionalidades, fix, etc.
+
+
+
 
 
 ## Evolución natural del historial de objetos ##
@@ -142,6 +149,9 @@ Resumen
 Checkout: Es como mirar una foto vieja o visitar un museo. El presente sigue existiendo.
 
 Reset: Es como una máquina del tiempo que altera el pasado. El futuro que conocías deja de existir.
+
+
+
 
 
 ---
