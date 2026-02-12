@@ -1,11 +1,8 @@
 
 # Git y GitHub
 
-<<<<<<< HEAD
-# LLEGAMOS AL MINUTO 2:10:45 DEL VIDEO  (GIT TAG)#
-=======
-# LLEGAMOS AL MINUTO 1:54 DEL VIDEO  (GIT TAG)#
->>>>>>> login
+# LLEGAMOS AL MINUTO 2:22 DEL VIDEO  (GIT TAG)#
+
 
 ## Git
 
@@ -83,6 +80,20 @@
 
 `git reset --hard <hash>` elimina por completo un commit
 
+`git branch` muestra todas las ramas
+
+`git branch <nombreRama>` crea una nueva rama, para nuevas funcionalidades, fix, etc.
+
+`git branch -d <nombreRama>` elimina la rama
+
+`git stash` guarda los cambios en un area temporal, esto permite hacer un switch a otra rama sin perder los cambios.
+
+`git stash list` muestra la lista de cambios guardados
+
+`git stash pop` recupera los cambios guardados
+
+`git stash drop` elimina los cambios guardados
+
 
 
 ## Alias ##
@@ -97,23 +108,7 @@ entonces
 
 `git tree equivale a git log --graph --decorate --all --oneline`
 
-`git branch` muestra todas las ramas
 
-`git branch <nombreRama>` crea una nueva rama, para nuevas funcionalidades, fix, etc.
-
-`git branch -d <nombreRama>` elimina la rama
-
-
-`git stash` guarda los cambios en un area temporal, esto permite hacer un switch a otra rama sin perder los cambios.
-
-`git stash list` muestra la lista de cambios guardados
-
-`git stash pop` recupera los cambios guardados
-
-`git stash drop` elimina los cambios guardados
-
-
-## fin comandos ##
 
 
 ## Evolución natural del historial de objetos ##
