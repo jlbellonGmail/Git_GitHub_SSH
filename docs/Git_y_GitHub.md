@@ -57,6 +57,8 @@
 
 `git commit "mensaje"` agrega al repositorio  es la foto 
 
+`git commit --amend -m "Documentacion"`  modifica el mensaje del ultimo commit
+
 `git checkoaut <nombreArchivo>`  ???
 
 `git reset` recupera el ultimo commit y "elimina" actual
