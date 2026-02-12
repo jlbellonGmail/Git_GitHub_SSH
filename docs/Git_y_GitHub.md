@@ -104,7 +104,7 @@ entonces
 `git stash drop` elimina los cambios guardados
 
 
-
+## fin comandos ##
 
 
 ## Evolución natural del historial de objetos ##
