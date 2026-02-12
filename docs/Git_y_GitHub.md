@@ -1,7 +1,11 @@
 
 # Git y GitHub
 
+<<<<<<< HEAD
 # LLEGAMOS AL MINUTO 2:10:45 DEL VIDEO  (GIT TAG)#
+=======
+# LLEGAMOS AL MINUTO 1:54 DEL VIDEO  (GIT TAG)#
+>>>>>>> login
 
 ## Git
 
@@ -57,6 +61,8 @@
 
 `git commit "mensaje"` agrega al repositorio  es la foto 
 
+`git commit --amend -m "Documentacion"`  modifica el mensaje del ultimo commit
+
 `git checkoaut <nombreArchivo>`  ???
 
 `git reset` recupera el ultimo commit y "elimina" actual
@@ -94,6 +100,9 @@ entonces
 `git branch` muestra todas las ramas
 
 `git branch <nombreRama>` crea una nueva rama, para nuevas funcionalidades, fix, etc.
+
+`git branch -d <nombreRama>` elimina la rama
+
 
 `git stash` guarda los cambios en un area temporal, esto permite hacer un switch a otra rama sin perder los cambios.
 
