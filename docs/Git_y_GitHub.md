@@ -70,6 +70,8 @@
 
 `git log --graph --decorate --all --oneline` muestra resumido la linea de tiempo
 
+
+
 `git diff` muestra las diferencias que hemos realizado en un archivo respecto del ultimo commit
 
 `git reflog` muestra el historial completo de commits realizados, incluso los que no estan en el historial de ramas.
@@ -84,7 +86,9 @@
 
 `git branch <nombreRama>` crea una nueva rama, para nuevas funcionalidades, fix, etc.
 
-`git branch -d <nombreRama>` elimina la rama
+`git branch -d <nombreRama>` elimina la rama local
+
+`git push origin --delete <nombreRama>` elimina la rama en el repositorio remoto
 
 `git stash` guarda los cambios en un area temporal, esto permite hacer un switch a otra rama sin perder los cambios.
 
