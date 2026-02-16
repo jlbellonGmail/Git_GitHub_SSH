@@ -1,7 +1,7 @@
 
 # Git y GitHub
 
-# LLEGAMOS AL MINUTO 2:22 DEL VIDEO  (GIT TAG)#
+# LLEGAMOS AL MINUTO 3:11 DEL VIDEO  (GIT TAG)#
 
 
 ## Git
@@ -70,7 +70,7 @@
 
 `git log --graph --decorate --all --oneline` muestra resumido la linea de tiempo
 
-
+`git fecht` baja los cambios del repositorio remoto pero no los aplica
 
 `git diff` muestra las diferencias que hemos realizado en un archivo respecto del ultimo commit
 
@@ -88,7 +88,36 @@
 
 `git branch -d <nombreRama>` elimina la rama local
 
+`git push` comimt locales los sube al repositorio remoto
+
 `git push origin --delete <nombreRama>` elimina la rama en el repositorio remoto
+
+`git pull` baja los cambios del repositorio remoto
+
+`git fetch` baja los cambios del repositorio remoto pero no los aplica
+
+`git merge` fusiona los cambios de una rama a otra
+
+`git merge --abort` cancela un merge
+
+`git merge --continue` continua un merge
+
+`git merge --quit` sale de un merge
+
+`git merge --squash` fusiona los cambios de una rama a otra en un solo commit
+
+`git merge --no-ff` fusiona los cambios de una rama a otra sin crear un commit
+
+
+
+`git rebase` fusiona los cambios de una rama a otra de forma lineal
+
+`git remote add origin <url>` agrega un repositorio remoto
+
+`git remote remove origin` elimina un repositorio remoto
+
+`git remote -v` muestra los repositorios remotos
+
 
 `git stash` guarda los cambios en un area temporal, esto permite hacer un switch a otra rama sin perder los cambios.
 
