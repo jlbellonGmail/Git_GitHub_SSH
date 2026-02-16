@@ -52,6 +52,8 @@
 
 `git add <nombreArchivo>`  lo agrega al area de **stage**  prepara para la foto
 
+`git clone <url>`  clona un repositorio remoto
+
 `git add .` agrega todos los pendientes al **stage**
 
 `git restore --staged <nobreArchivo>` lo quita del area **stage** 
@@ -112,7 +114,7 @@
 
 `git rebase` fusiona los cambios de una rama a otra de forma lineal
 
-`git remote add origin <url>` agrega un repositorio remoto
+`git remote add origin <url>` agrega a un repositorio remoto (lo enlazadmos/sincronizamo git local con github)
 
 `git remote remove origin` elimina un repositorio remoto
 
