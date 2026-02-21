@@ -94,9 +94,9 @@
 
 `git push origin --delete <nombreRama>` elimina la rama en el repositorio remoto
 
-`git pull` baja los cambios del repositorio remoto
+`git pull` descarga el historial de los cambios del repositorio remoto y los aplica.
 
-`git fetch` baja los cambios del repositorio remoto pero no los aplica
+`git fetch` descarga el historial de cambios remoto del repositorio remoto pero no los aplica
 
 `git merge` fusiona los cambios de una rama a otra
 
@@ -128,6 +128,27 @@
 `git stash pop` recupera los cambios guardados
 
 `git stash drop` elimina los cambios guardados
+
+`git fork` crea una copia de un repositorio remoto
+Para ello debemos se otro usuario y el proyecto original debe estar en github con acceso publico.
+
+`git pull request` crea una solicitud de fusion de cambios
+
+
+Comando,Para qué sirve,Por qué es útil en proyectos grandes
+git fetch --all --prune,Limpia ramas muertas.,Borra de tu vista local las ramas que ya se eliminaron en el servidor (mantiene el grafo limpio).
+git log --oneline -n 20,Historial ultra rápido.,Te muestra los últimos 20 commits sin cargar nada visual. Es instantáneo.
+git commit --amend --no-edit,"El ""reparador"" rápido.","Si acabas de hacer un commit y olvidaste un archivo, lo añade al anterior sin crear un commit nuevo ""sucio""."
+git stash y git stash pop,Pausa de emergencia.,"Guarda tus cambios actuales en un ""limbo"" para poder cambiar de rama rápido sin hacer commit."
+git clean -fd,Limpieza total.,"Borra todos los archivos que NO están en Git (carpetas de logs, temporales, etc.) de un plumazo."
+git bisect,El detective de bugs.,Te ayuda a encontrar exactamente en qué commit se rompió algo haciendo una búsqueda binaria.
+
+## Git Flow ##
+**Instalar Git Flow**
+git clone https://github.com/nvie/gitflow.git
+
+
+
 
 
 
