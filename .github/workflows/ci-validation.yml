@@ -1,0 +1,26 @@
+name: Test Validation Pipeline
+on:
+  push:
+    branches: [ developers, main, 'release/*', 'hotfix/*' ]
+  pull_request:
+    branches: [ developers, main ]
+
+jobs:
+  test-and-coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Instalación de dependencias
+        run: npm install  # Cambia a 'pip install -r requirements.txt' si usas Python
+
+      - name: Ejecución de Tests
+        run: npm test     # Cambia al comando de test de tu lenguaje (ej: pytest)
+
+      - name: Generar Reporte de Cobertura
+        uses: irongut/CodeCoverageSummary@v1.3.0
+        with:
+          filename: coverage/cobertura-coverage.xml # Ajusta a la ruta de tu reporte
+          badge: true
+          fail_below_min: true
+          threshold: 80
