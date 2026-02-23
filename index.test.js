@@ -1,3 +1,3 @@
-test('Verificación de entorno funcional', () => {
+test('Verificación básica de entorno', () => {
     expect(true).toBe(true);
 });
